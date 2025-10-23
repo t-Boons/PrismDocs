@@ -5,7 +5,7 @@ title: Prism - Documentation
 # Prism LensFlare asset creation.
 Right click the content browser and go under Miscellaneous/Prism LensFlare asset.
 
-![[assets/AssetCreation.png]]
+![](assets/AssetCreation.png)
 
 # Prism LensFlare settings.
 * Bokehs: Bokehs is an array of bokeh elements.
@@ -28,19 +28,18 @@ Middle Fade means how much the lensflare bokeh will disappear when it is in line
 
 * AlwaysFaceLight: Will always point the bokeh to the sun position. (Rotation can still be applied but it will be an offset)
 
-![[assets/PrismAsset.png]]
+![](assets/PrismAsset.png)
 
 # Settings a prism asset.
 ### In the editor.
 Right click on your created PrismLensflareAsset and click "Use this Asset".
 
-![[assets/SettingAsset.png]]
+![](assets/SettingAsset.png)
 
 ### Via Blueprints
 Find the SetGlobalPrismLensflareAsset node in your blueprint along with the PrismAssetSubSystem SubSystem node.
 
-
-![[assets/SettingAssetBP.png]]
+![](assets/SettingAssetBP.png)
 
 Youc an use the GetGlobalPrismLensFlareAsset node to get the currently acrtive PrismLensFlare.
 
