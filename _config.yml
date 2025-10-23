@@ -1,7 +1,6 @@
 title: Prism
 tagline: Documentation
-description: >- # this means to ignore newlines until "baseurl:"
-Prism Lens flare editor plugin documentation website.
+description: Prism Lens flare editor plugin documentation website.
 baseurl: "/PrismDocs" # the subpath of your site, e.g. /blog
 url: "https://t-boons.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
